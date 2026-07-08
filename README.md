@@ -1,4 +1,4 @@
-# Code You Never Write — Real-World AI Coding Projects
+# Code You Never Write Real-World AI Coding Projects
 
 **Name:** Syeda Malika Zainab Kazmi
 
