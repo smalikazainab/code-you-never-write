@@ -1,0 +1,38 @@
+{
+  "context": "Class farewell party fund. 10 classmates, each expected to contribute PKR 5000 towards the farewell party budget.",
+  "known_correct_total": 50000,
+  "expected_members": [
+    "Ahmed Raza", "Mahnoor Khan", "Bilal Hussain", "Sana Iqbal", "Usman Tariq",
+    "Zainab Riaz", "Hamza Sheikh", "Fatima Noor", "Omar Farooq", "Hira Yousaf"
+  ],
+  "amount_due_per_member": 5000,
+
+  "interpretation_rules": {
+    "note": "Personal rules for matching messy digital memos to real classmates.",
+    "name_aliases": {
+      "Ahmed R": "Ahmed Raza",
+      "Mahnoor": "Mahnoor Khan",
+      "Bilal": "Bilal Hussain",
+      "Sana I": "Sana Iqbal",
+      "Zainab R.": "Zainab Riaz",
+      "Fatima N": "Fatima Noor",
+      "Omar F": "Omar Farooq"
+    },
+    "special_cases": {
+      "unknown transfer (500)": "This small transfer arrived right after Sana I's payment and is her remaining balance (4500 + 500 = 5000 in full)."
+    }
+  },
+
+  "digital_payment_records": [
+    {"memo": "Ahmed R", "amount": 5000},
+    {"memo": "Mahnoor", "amount": 5000},
+    {"memo": "Bilal", "amount": 5000},
+    {"memo": "Sana I", "amount": 4500},
+    {"memo": "Usman Tariq", "amount": 5000},
+    {"memo": "Zainab R.", "amount": 5000},
+    {"memo": "Hamza Sheikh", "amount": 5000},
+    {"memo": "Fatima N", "amount": 5000},
+    {"memo": "Omar F", "amount": 5000},
+    {"memo": "unknown transfer", "amount": 500}
+  ]
+}
